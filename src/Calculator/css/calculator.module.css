@@ -1,0 +1,16 @@
+.calc__body{
+    padding:50px 0;
+    max-width:400px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.button__grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'btn btn btn btn btn'  
+                         'btn btn btn btn btn'  
+                         'btn btn btn btn btn'
+                         'btn btn btn btn btn'
+}

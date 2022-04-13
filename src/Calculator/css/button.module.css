@@ -1,0 +1,17 @@
+.btn{
+   text-align: center;
+   border:1px solid white;
+   padding:30px 0;
+   font-size:18px;
+   background-color:#bcecf1;
+   transition:0.7s;
+   -webkit-touch-callout: none; 
+    -webkit-user-select: none;  
+    -khtml-user-select: none;    
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;   
+}
+.btn:hover{
+    background-color: rgb(119, 206, 187);
+}
